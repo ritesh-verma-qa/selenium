@@ -11,11 +11,11 @@ Change the current working directory to the location where you want the cloned d
 Type git clone, and then paste the URL you copied earlier.
 
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-Press Enter to create your local clone.
-open Eclipse
+Press Enter to create your local Clone.
+Open Eclipse
 Click on File>Import
 Provide location of project from local
-click Finish
+Click Finish
 
 Right click on project->Build Path-> Configure Build Path. Add required libraries and external jars to be used in project
 
@@ -23,6 +23,6 @@ Class:
 
 Main class: WeatherReportingTest
 
-class "APItesting" extract the API response
+Class "APItesting" extract the API response
 
-class "FrontEnd" performs selenium actions on web browser (Google chrome v 85). calls the APItesting class and performs variance logic
+Class "FrontEnd" performs selenium actions on web browser (Google chrome v 85). calls the APItesting class and performs variance logic
